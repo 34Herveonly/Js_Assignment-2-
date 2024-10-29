@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Individual Assignment</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div class="assignment">
+    <div class="title">
+      <h1>Sugira Herve 222004590</h1>
+      <h2>Individual Assignment 2</h2>
+    </div>
+
+    <!-- Array Questions Section -->
+    <div class="question-section" id="arrays-section">
+      <h2>Array Questions</h2>
+      <div class="question">
+        <p>1. Create an array of 20 numbers and write a function to find the sum of all numbers.</p>
+        <button onclick="displaySumOfAllValues()">Answer</button>
+        <p class="answer1"></p>
+      </div>
+      <div class="question">
+        <p>2. Write a function to find the largest number in an array of 20 numbers.</p><button
+          onclick="displayLargest()">Answer</button>
+          <p class="answer2"></p>          
+      </div>
+      <div class="question">
+        <p>3. Write a function to sort an array of 20 numbers in ascending order.</p><button
+          onclick="sortArray()">Answer</button>
+          <p class="answer3"></p>
+      </div>
+      <div class="question">
+        <p>4. Write a function to reverse an array of 20 numbers.</p><button onclick="reversedArray()">Answer</button>
+        <p class="answer4"></p>
+      </div>
+      <div class="question">
+        <p>5. Write a function that takes an array of 20 numbers and returns only even numbers.</p><button
+          onclick="getEvenNumbers()">Run</button>
+          <p class="answer5"></p>
+      </div>
+      <div class="question">
+        <p>6. Write a function that takes an array of 20 numbers and returns only odd numbers.</p><button
+          onclick="getOddNumbers()">Run</button>
+          <p class="answer6"></p>
+      </div>
+      <div class="question">
+        <p>7. Write a function that takes an array of 20 numbers and returns the average of those numbers.</p><button
+          onclick="calculateAverage()">Run</button>
+          <p class="answer7"></p>
+      </div>
+      <div class="question">
+        <p>8. Write a function to remove duplicates from an array of 20 numbers.</p><button
+          onclick="removeDuplicate()">Run</button>
+          <p class="answer8"></p>
+      </div>
+      <div class="question">
+        <p>9. Write a function that takes an array of 20 numbers and returns the median value.</p><button
+          onclick="getMedian()">Run</button>
+          <p class="answer9"></p>
+      </div>
+      <div class="question">
+        <p>10. Write a function to multiply all elements in an array of 20 numbers by 2.</p><button
+          onclick="multiplyByTwo()">Run</button>
+          <p class="answer10"></p>
+      </div>
+    </div>
+
+    <!-- Array of Strings Section -->
+    <div class="question-section" id="strings-section">
+      <h2>Array of Strings Questions</h2>
+      <div class="question">
+        <p>11. Create an array of 20 names and write a function to print each name on a new line.</p><button
+          onclick="printNames()">Run</button>
+          <p class="answer11"></p>
+      </div>
+      <div class="question">
+        <p>12. Write a function to sort an array of 20 names alphabetically.</p><button
+          onclick="sortNames()">Run</button>
+          <p class="answer12"></p>
+      </div>
+      <div class="question">
+        <p>13. Write a function that checks if a specific name exists in an array of 20 names and returns true or false.
+        </p><button onclick="checkName()">Run</button>
+        <p class="answer13"></p>
+      </div>
+      <div class="question">
+        <p>14. Write a function to find the longest name in an array of 20 names.</p><button
+          onclick="findLongestNam()">Run</button>
+          <p class="answer14"></p>
+      </div>
+      <div class="question">
+        <p>15. Write a function to find names that start with a specific letter in an array of 20 names.</p><button
+          onclick="namesStartingWithLetter()">Run</button>
+          <p class="answer15"></p>
+      </div>
+      <div class="question">
+        <p>16. Write a function to convert all names to uppercase in an array of 20 names.</p><button
+          onclick="convertNamesToUpper()">Run</button>
+          <p class="answer16"></p>
+      </div>
+      <div class="question">
+        <p>17. Write a function to remove a specific name from an array of 20 names.</p><button
+          onclick="removeNam()">Run</button>
+          <p class="answer17"></p>
+      </div>
+      <div class="question">
+        <p>18. Write a function to count how many names contain the letter "a" in an array of 20 names.</p><button
+          onclick="countNamesWithA()">Run</button>
+          <p class="answer18"></p>
+      </div>
+      <div class="question">
+        <p>19. Write a function to concatenate all names in an array of 20 names into a single string, separated by
+          commas.</p><button onclick="concatenateName()">Run</button>
+          <p class="answer19"></p>
+      </div>
+      <div class="question">
+        <p>20. Write a function to reverse the order of an array of 20 names.</p><button
+          onclick="reverseNamesArray()">Run</button>
+          <p class="answer20"></p>
+      </div>
+    </div>
+
+    <!-- Object Questions Section -->
+    <div class="question-section" id="object-section">
+      <h2>Object Questions</h2>
+      <div class="question">
+        <p>21. Create a JavaScript object that represents a person (with properties: name, age, and occupation).</p>
+        <button onclick="createPerson()">Run</button>
+        <p class="answer21"></p>
+      </div>
+      <div class="question">
+        <p>22. Write a function that takes a person object and returns a formatted string with their information.</p>
+        <button onclick="formatPersonInfo()">Run</button>
+        <p class="answer22"></p>
+      </div>
+      <div class="question">
+        <p>23. Write a function to add a new property to an existing object.</p><button
+          onclick="addPropert('obj', 'key', 'value')">Run</button>
+          <p class="answer23"></p>
+      </div>
+      <div class="question">
+        <p>24. Write a function to remove a property from an existing object.</p><button
+          onclick="removePropert()">Run</button>
+          <p class="answer24"></p>
+      </div>
+      <div class="question">
+        <p>25. Write a function to list all properties and values of a JavaScript object.</p><button
+          onclick="listProperties()">Run</button>
+          <p class="answer25"></p>
+      </div>
+      <div class="question">
+        <p>26. Write a function to merge two objects into one.</p><button onclick="mergeObjects()">Run</button>
+        <p class="answer26"></p>
+      </div>
+      <div class="question">
+        <p>27. Write a function to check if a property exists in an object.</p><button
+          onclick="checkProperty()">Run</button>
+          <p class="answer27"></p>
+      </div>
+      <div class="question">
+        <p>28. Write a function to clone an object without referencing the original one.</p><button
+          onclick="cloneObject1()">Run</button>
+          <p class="answer28"></p>
+      </div>
+      <div class="question">
+        <p>29. Write a function that loops through an array of objects and prints a specific property of each object.
+        </p><button onclick="printObjectProperty()">Run</button>
+        <p class="answer29"></p>
+      </div>
+      <div class="question">
+
+        <p>30. Write a function that updates a specific property of an object based on user input.</p><button
+          onclick="updateObjectProperty()">Run</button>
+          <p class="answer30"></p>
+      </div>
+    </div>
+
+    <!-- String Manipulation Section -->
+    <div class="question-section" id="string-manipulation-section">
+      <h2>String Manipulation Questions</h2>
+      <div class="question">
+        
+        <p>31. Write a function that takes a string and reverses the string.</p><button
+          onclick="reverseString1()">Run</button>
+          <p class="answer31"></p>
+      </div>
+      <div class="question">
+        <p>32. Write a function to count the number of vowels in a given string.</p><button
+          onclick="countVowels1()">Run</button>
+          <p class="answer32"></p>
+      </div>
+      <div class="question">
+        <p>33. Write a function to convert a string to uppercase without using built-in methods.</p><button
+          onclick="convertToUpper()">Run</button>
+          <p class="answer33"></p>
+      </div>
+      <div class="question">
+        <p>34. Write a function to find the length of a string without using .length.</p><button
+          onclick="findStringLength()">Run</button>
+          <p class="answer34"></p>
+      </div>
+      <div class="question">
+        <p>35. Write a function to replace all spaces with hyphens in a string.</p><button
+          onclick="replaceSpaces()">Run</button>
+          <p class="answer35"></p>
+      </div>
+      <div class="question">
+        <p>36. Write a function to extract the first 10 characters from a string.</p><button
+          onclick="extractFirstTenChars1()">Run</button>
+          <p class="answer36"></p>
+      </div>
+      <div class="question">
+        <p>37. Write a function to find and replace a word in a string.</p><button
+          onclick="findAndReplaceWord1()">Run</button>
+          <p class="answer37"></p>
+      </div>
+      <div class="question">
+        <p>38. Write a function to split a string into an array of words.</p><button
+          onclick="splitString()">Run</button>
+          <p class="answer38"></p>
+      </div>
+      <div class="question">
+        <p>39. Write a function to remove all numbers from a string.</p><button onclick="removeNumbers1()">Run</button>
+        <p class="answer39"></p>
+      </div>
+      <div class="question">
+        <p>40. Write a function to insert another string in the existing starting at position 7.</p><button
+          onclick="insertString()">Run</button>
+          <p class="answer40"></p>
+      </div>
+    </div>
+
+    <!-- HTML Elements and DOM Manipulation Section -->
+    <div class="question-section" id="dom-manipulation-section">
+      <h2>HTML Elements and DOM Manipulation</h2>
+      <div class="question">
+        <p>41. Write a JavaScript function that changes the background color of a webpage when a button is clicked.</p>
+        <button onclick="changeBackgroundColor()" id="changeColorButton">Change</button>
+        
+      </div>
+      <div class="question">
+        <p>42. Write a JavaScript function that hides an HTML element when a button is clicked.</p><button
+          onclick="hideElement()" id="hideButton">Run</button>
+          
+      </div>
+      <div class="question">
+        <p>43. Write a JavaScript function that shows a hidden HTML element when a button is clicked.</p><button
+          onclick="showElement()" id="addParagraphButton">Run</button>
+         
+      </div>
+      <div class="question">
+        <p>44. Write a JavaScript function that creates and appends a new paragraph to the webpage.</p><button
+          onclick="appendParagraph()" id="removeListItemsButton">Run</button>
+          
+      </div>
+      <div class="question">
+        <p>45. Write a JavaScript function that removes the last paragraph from the webpage.</p><button
+          onclick="removeLastParagraph()" id="changeTextButton">Run</button>
+          <p class="answer45"></p>
+      </div>
+      <div class="question">
+        <p>46. Write a JavaScript function to toggle between hiding and showing an HTML element.</p><button
+          onclick="toggleElement()" id="toggleClassButton">Run</button>
+          
+      </div>
+      <div class="question">
+        <p>47. Write a JavaScript function that changes the text of an HTML element when a button is clicked.</p><button
+          onclick="changeText()">Run</button>
+          <p class="answer47"></p>
+      </div>
+      <div class="question">
+
+        <p>48. Write a JavaScript function to count the number of paragraphs on a webpage.</p><button
+          onclick="countParagraphs()">Run</button>
+          <p class="answer48"></p>
+      </div>
+      <div class="question">
+        <p>49. Write a JavaScript function that adds an HTML element with specific text inside a container.</p><button
+          onclick="addElementWithText()" id="createTableButton">Run</button>
+          <p class="answer49"></p>
+      </div>
+      <div class="question">
+        <p>50. Write a JavaScript function that changes the font size of an HTML element when a button is clicked.</p>
+        <button onclick="changeFontSize()" id="validateButton">Run</button>
+        <p class="answer50"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
